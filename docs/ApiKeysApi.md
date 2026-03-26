@@ -21,7 +21,7 @@ import {
     ApiKeysApi,
     Configuration,
     ApiKeyCreateDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new ApiKeysApi(configuration);
@@ -77,7 +77,7 @@ const { status, data } = await apiInstance.createApiKeys(
 import {
     ApiKeysApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new ApiKeysApi(configuration);
@@ -133,7 +133,7 @@ void (empty response body)
 import {
     ApiKeysApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new ApiKeysApi(configuration);
@@ -189,7 +189,7 @@ const { status, data } = await apiInstance.getApiKeysById(
 import {
     ApiKeysApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new ApiKeysApi(configuration);
@@ -252,7 +252,7 @@ import {
     ApiKeysApi,
     Configuration,
     ApiKeyUpdateDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new ApiKeysApi(configuration);

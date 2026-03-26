@@ -18,7 +18,7 @@ All URIs are relative to *http://localhost*
 import {
     NotificationApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new NotificationApi(configuration);
@@ -98,7 +98,7 @@ void (empty response body)
 import {
     NotificationApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new NotificationApi(configuration);
@@ -161,7 +161,7 @@ import {
     NotificationApi,
     Configuration,
     CreatePushNotificationDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new NotificationApi(configuration);

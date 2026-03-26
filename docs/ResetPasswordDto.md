@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ResetPasswordDto } from 'puupee-api-axios';
+import { ResetPasswordDto } from 'puupee-api';
 
 const instance: ResetPasswordDto = {
     userId,

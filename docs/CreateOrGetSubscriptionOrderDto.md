@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CreateOrGetSubscriptionOrderDto } from 'puupee-api-axios';
+import { CreateOrGetSubscriptionOrderDto } from 'puupee-api';
 
 const instance: CreateOrGetSubscriptionOrderDto = {
     id,

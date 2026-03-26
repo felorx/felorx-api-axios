@@ -20,7 +20,7 @@ import {
     MessageApi,
     Configuration,
     MessagePublishDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageApi(configuration);
@@ -77,7 +77,7 @@ import {
     MessageApi,
     Configuration,
     MessageRecallDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageApi(configuration);
@@ -134,7 +134,7 @@ import {
     MessageApi,
     Configuration,
     MessageSubscribeDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageApi(configuration);
@@ -191,7 +191,7 @@ import {
     MessageApi,
     Configuration,
     MessageUnsubscribeDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageApi(configuration);

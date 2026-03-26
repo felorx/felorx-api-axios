@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ExtensionPropertyAttributeDto } from 'puupee-api-axios';
+import { ExtensionPropertyAttributeDto } from 'puupee-api';
 
 const instance: ExtensionPropertyAttributeDto = {
     typeSimple,

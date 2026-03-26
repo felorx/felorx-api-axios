@@ -17,7 +17,7 @@ import {
     AppUserScoreApi,
     Configuration,
     CreateOrUpdateAppUserScoreDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppUserScoreApi(configuration);

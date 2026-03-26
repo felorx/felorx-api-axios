@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IStringValueType } from 'puupee-api-axios';
+import { IStringValueType } from 'puupee-api';
 
 const instance: IStringValueType = {
     name,

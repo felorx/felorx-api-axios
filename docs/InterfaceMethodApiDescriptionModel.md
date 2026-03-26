@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { InterfaceMethodApiDescriptionModel } from 'puupee-api-axios';
+import { InterfaceMethodApiDescriptionModel } from 'puupee-api';
 
 const instance: InterfaceMethodApiDescriptionModel = {
     name,

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { RefreshDeviceStatusDto } from 'puupee-api-axios';
+import { RefreshDeviceStatusDto } from 'puupee-api';
 
 const instance: RefreshDeviceStatusDto = {
     token,

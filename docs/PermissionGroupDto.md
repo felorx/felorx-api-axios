@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { PermissionGroupDto } from 'puupee-api-axios';
+import { PermissionGroupDto } from 'puupee-api';
 
 const instance: PermissionGroupDto = {
     name,

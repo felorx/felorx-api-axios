@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CdnDomainDto } from 'puupee-api-axios';
+import { CdnDomainDto } from 'puupee-api';
 
 const instance: CdnDomainDto = {
     name,

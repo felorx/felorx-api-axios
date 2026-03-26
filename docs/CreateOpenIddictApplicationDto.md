@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CreateOpenIddictApplicationDto } from 'puupee-api-axios';
+import { CreateOpenIddictApplicationDto } from 'puupee-api';
 
 const instance: CreateOpenIddictApplicationDto = {
     type,

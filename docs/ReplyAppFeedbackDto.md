@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ReplyAppFeedbackDto } from 'puupee-api-axios';
+import { ReplyAppFeedbackDto } from 'puupee-api';
 
 const instance: ReplyAppFeedbackDto = {
     reply,

@@ -27,7 +27,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { Receipt } from 'puupee-api-axios';
+import { Receipt } from 'puupee-api';
 
 const instance: Receipt = {
     receipt_type,

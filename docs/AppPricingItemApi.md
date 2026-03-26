@@ -21,7 +21,7 @@ import {
     AppPricingItemApi,
     Configuration,
     CreateOrUpdateAppPricingItemDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingItemApi(configuration);
@@ -77,7 +77,7 @@ const { status, data } = await apiInstance.createAppPricingItem(
 import {
     AppPricingItemApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingItemApi(configuration);
@@ -133,7 +133,7 @@ void (empty response body)
 import {
     AppPricingItemApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingItemApi(configuration);
@@ -189,7 +189,7 @@ const { status, data } = await apiInstance.getAppPricingItemById(
 import {
     AppPricingItemApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingItemApi(configuration);
@@ -239,7 +239,7 @@ import {
     AppPricingItemApi,
     Configuration,
     CreateOrUpdateAppPricingItemDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingItemApi(configuration);

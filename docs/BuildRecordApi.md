@@ -27,7 +27,7 @@ import {
     BuildRecordApi,
     Configuration,
     CreateBuildRecordDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new BuildRecordApi(configuration);
@@ -83,7 +83,7 @@ const { status, data } = await apiInstance.createBuildRecord(
 import {
     BuildRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new BuildRecordApi(configuration);
@@ -139,7 +139,7 @@ void (empty response body)
 import {
     BuildRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new BuildRecordApi(configuration);
@@ -195,7 +195,7 @@ const { status, data } = await apiInstance.getBuildRecordById(
 import {
     BuildRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new BuildRecordApi(configuration);
@@ -275,7 +275,7 @@ const { status, data } = await apiInstance.getBuildRecordList(
 import {
     BuildRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new BuildRecordApi(configuration);
@@ -331,7 +331,7 @@ const { status, data } = await apiInstance.getByCiBuildId(
 import {
     BuildRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new BuildRecordApi(configuration);
@@ -393,7 +393,7 @@ const { status, data } = await apiInstance.getLatest(
 import {
     BuildRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new BuildRecordApi(configuration);
@@ -449,7 +449,7 @@ const { status, data } = await apiInstance.markAsBuilding(
 import {
     BuildRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new BuildRecordApi(configuration);
@@ -505,7 +505,7 @@ const { status, data } = await apiInstance.markAsCanceled(
 import {
     BuildRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new BuildRecordApi(configuration);
@@ -564,7 +564,7 @@ const { status, data } = await apiInstance.markAsFailed(
 import {
     BuildRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new BuildRecordApi(configuration);
@@ -627,7 +627,7 @@ import {
     BuildRecordApi,
     Configuration,
     UpdateBuildRecordDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new BuildRecordApi(configuration);

@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CreateBuildRecordDto } from 'puupee-api-axios';
+import { CreateBuildRecordDto } from 'puupee-api';
 
 const instance: CreateBuildRecordDto = {
     appId,

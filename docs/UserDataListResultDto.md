@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { UserDataListResultDto } from 'puupee-api-axios';
+import { UserDataListResultDto } from 'puupee-api';
 
 const instance: UserDataListResultDto = {
     items,

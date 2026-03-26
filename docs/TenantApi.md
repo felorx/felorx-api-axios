@@ -24,7 +24,7 @@ import {
     TenantApi,
     Configuration,
     TenantCreateDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new TenantApi(configuration);
@@ -80,7 +80,7 @@ const { status, data } = await apiInstance.createTenant(
 import {
     TenantApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new TenantApi(configuration);
@@ -136,7 +136,7 @@ void (empty response body)
 import {
     TenantApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new TenantApi(configuration);
@@ -192,7 +192,7 @@ void (empty response body)
 import {
     TenantApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new TenantApi(configuration);
@@ -248,7 +248,7 @@ const { status, data } = await apiInstance.getDefaultConnectionString(
 import {
     TenantApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new TenantApi(configuration);
@@ -304,7 +304,7 @@ const { status, data } = await apiInstance.getTenantById(
 import {
     TenantApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new TenantApi(configuration);
@@ -369,7 +369,7 @@ const { status, data } = await apiInstance.getTenantList(
 import {
     TenantApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new TenantApi(configuration);
@@ -429,7 +429,7 @@ import {
     TenantApi,
     Configuration,
     TenantUpdateDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new TenantApi(configuration);

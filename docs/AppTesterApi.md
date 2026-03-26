@@ -21,7 +21,7 @@ All URIs are relative to *http://localhost*
 import {
     AppTesterApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppTesterApi(configuration);
@@ -81,7 +81,7 @@ import {
     AppTesterApi,
     Configuration,
     CreateUpdateAppTesterDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppTesterApi(configuration);
@@ -137,7 +137,7 @@ const { status, data } = await apiInstance.createAppTester(
 import {
     AppTesterApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppTesterApi(configuration);
@@ -193,7 +193,7 @@ void (empty response body)
 import {
     AppTesterApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppTesterApi(configuration);
@@ -249,7 +249,7 @@ const { status, data } = await apiInstance.getAppTesterById(
 import {
     AppTesterApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppTesterApi(configuration);
@@ -312,7 +312,7 @@ import {
     AppTesterApi,
     Configuration,
     CreateUpdateAppTesterDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppTesterApi(configuration);

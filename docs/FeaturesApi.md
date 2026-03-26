@@ -18,7 +18,7 @@ All URIs are relative to *http://localhost*
 import {
     FeaturesApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new FeaturesApi(configuration);
@@ -77,7 +77,7 @@ void (empty response body)
 import {
     FeaturesApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new FeaturesApi(configuration);
@@ -137,7 +137,7 @@ import {
     FeaturesApi,
     Configuration,
     UpdateFeaturesDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new FeaturesApi(configuration);

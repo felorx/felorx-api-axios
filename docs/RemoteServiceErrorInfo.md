@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { RemoteServiceErrorInfo } from 'puupee-api-axios';
+import { RemoteServiceErrorInfo } from 'puupee-api';
 
 const instance: RemoteServiceErrorInfo = {
     code,

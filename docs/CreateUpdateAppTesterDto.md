@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CreateUpdateAppTesterDto } from 'puupee-api-axios';
+import { CreateUpdateAppTesterDto } from 'puupee-api';
 
 const instance: CreateUpdateAppTesterDto = {
     appId,

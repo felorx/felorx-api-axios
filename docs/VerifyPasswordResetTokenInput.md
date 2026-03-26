@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { VerifyPasswordResetTokenInput } from 'puupee-api-axios';
+import { VerifyPasswordResetTokenInput } from 'puupee-api';
 
 const instance: VerifyPasswordResetTokenInput = {
     userId,

@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { UpdateProfileDto } from 'puupee-api-axios';
+import { UpdateProfileDto } from 'puupee-api';
 
 const instance: UpdateProfileDto = {
     extraProperties,

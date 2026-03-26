@@ -14,11 +14,11 @@ Name | Type | Description | Notes
 **deleterId** | **string** |  | [optional] [default to undefined]
 **deletionTime** | **string** |  | [optional] [default to undefined]
 **name** | **string** |  | [optional] [default to undefined]
-**displayName** | **string** |  | [optional] [default to undefined]
+**displayName** | **string** | 根据 Accept-Language 解析的展示标题（非持久化字段，来自语言包）。 | [optional] [default to undefined]
 **framework** | [**AppFramework**](AppFramework.md) |  | [optional] [default to undefined]
 **appType** | [**AppType**](AppType.md) |  | [optional] [default to undefined]
-**description** | **string** |  | [optional] [default to undefined]
-**icon** | **string** |  | [optional] [default to undefined]
+**description** | **string** | 根据 Accept-Language 解析的短描述（非持久化字段）。 | [optional] [default to undefined]
+**icon** | **string** | 根据 Accept-Language 解析的图标存储键或 URL（非持久化字段）。 | [optional] [default to undefined]
 **homePage** | **string** | 产品首页 | [optional] [default to undefined]
 **sortIndex** | **number** | 显示排序 | [optional] [default to undefined]
 **gitRepository** | **string** |  | [optional] [default to undefined]
@@ -35,13 +35,11 @@ Name | Type | Description | Notes
 **defaultSingleFileMaxSize** | **number** | 默认单文件最大大小 | [optional] [default to undefined]
 **latestReleases** | [**Array&lt;AppReleaseDto&gt;**](AppReleaseDto.md) |  | [optional] [default to undefined]
 **creator** | [**IdentityUserDto**](IdentityUserDto.md) |  | [optional] [default to undefined]
-**features** | [**Array&lt;AppFeatureDto&gt;**](AppFeatureDto.md) |  | [optional] [default to undefined]
-**sdks** | [**Array&lt;AppSdkDto&gt;**](AppSdkDto.md) |  | [optional] [default to undefined]
 
 ## Example
 
 ```typescript
-import { AppDto } from 'puupee-api-axios';
+import { AppDto } from 'puupee-api';
 
 const instance: AppDto = {
     id,
@@ -74,8 +72,6 @@ const instance: AppDto = {
     defaultSingleFileMaxSize,
     latestReleases,
     creator,
-    features,
-    sdks,
 };
 ```
 

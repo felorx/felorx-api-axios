@@ -22,7 +22,7 @@ import {
     RoleApi,
     Configuration,
     IdentityRoleCreateDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new RoleApi(configuration);
@@ -78,7 +78,7 @@ const { status, data } = await apiInstance.createIdentityRole(
 import {
     RoleApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new RoleApi(configuration);
@@ -134,7 +134,7 @@ void (empty response body)
 import {
     RoleApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new RoleApi(configuration);
@@ -183,7 +183,7 @@ This endpoint does not have any parameters.
 import {
     RoleApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new RoleApi(configuration);
@@ -239,7 +239,7 @@ const { status, data } = await apiInstance.getIdentityRoleById(
 import {
     RoleApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new RoleApi(configuration);
@@ -305,7 +305,7 @@ import {
     RoleApi,
     Configuration,
     IdentityRoleUpdateDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new RoleApi(configuration);

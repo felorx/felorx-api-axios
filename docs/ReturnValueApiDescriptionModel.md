@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ReturnValueApiDescriptionModel } from 'puupee-api-axios';
+import { ReturnValueApiDescriptionModel } from 'puupee-api';
 
 const instance: ReturnValueApiDescriptionModel = {
     type,

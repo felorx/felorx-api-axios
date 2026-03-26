@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { SendVerificationCodeDto } from 'puupee-api-axios';
+import { SendVerificationCodeDto } from 'puupee-api';
 
 const instance: SendVerificationCodeDto = {
     codeSender,

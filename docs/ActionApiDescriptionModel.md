@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ActionApiDescriptionModel } from 'puupee-api-axios';
+import { ActionApiDescriptionModel } from 'puupee-api';
 
 const instance: ActionApiDescriptionModel = {
     uniqueName,

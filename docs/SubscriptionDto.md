@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { SubscriptionDto } from 'puupee-api-axios';
+import { SubscriptionDto } from 'puupee-api';
 
 const instance: SubscriptionDto = {
     id,

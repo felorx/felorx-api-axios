@@ -28,7 +28,7 @@ import {
     DeployRecordApi,
     Configuration,
     CreateDeployRecordDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);
@@ -84,7 +84,7 @@ const { status, data } = await apiInstance.createDeployRecord(
 import {
     DeployRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);
@@ -140,7 +140,7 @@ void (empty response body)
 import {
     DeployRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);
@@ -196,7 +196,7 @@ const { status, data } = await apiInstance.getByCiDeployId(
 import {
     DeployRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);
@@ -252,7 +252,7 @@ const { status, data } = await apiInstance.getDeployRecordById(
 import {
     DeployRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);
@@ -332,7 +332,7 @@ const { status, data } = await apiInstance.getDeployRecordList(
 import {
     DeployRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);
@@ -394,7 +394,7 @@ const { status, data } = await apiInstance.getLatest(
 import {
     DeployRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);
@@ -450,7 +450,7 @@ const { status, data } = await apiInstance.getListByBuildRecordId(
 import {
     DeployRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);
@@ -506,7 +506,7 @@ const { status, data } = await apiInstance.markAsCanceled(
 import {
     DeployRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);
@@ -562,7 +562,7 @@ const { status, data } = await apiInstance.markAsDeploying(
 import {
     DeployRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);
@@ -621,7 +621,7 @@ const { status, data } = await apiInstance.markAsFailed(
 import {
     DeployRecordApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);
@@ -681,7 +681,7 @@ import {
     DeployRecordApi,
     Configuration,
     UpdateDeployRecordDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeployRecordApi(configuration);

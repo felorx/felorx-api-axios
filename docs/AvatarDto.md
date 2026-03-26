@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { AvatarDto } from 'puupee-api-axios';
+import { AvatarDto } from 'puupee-api';
 
 const instance: AvatarDto = {
     key,

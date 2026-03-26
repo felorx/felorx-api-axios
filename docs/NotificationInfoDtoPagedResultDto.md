@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { NotificationInfoDtoPagedResultDto } from 'puupee-api-axios';
+import { NotificationInfoDtoPagedResultDto } from 'puupee-api';
 
 const instance: NotificationInfoDtoPagedResultDto = {
     items,

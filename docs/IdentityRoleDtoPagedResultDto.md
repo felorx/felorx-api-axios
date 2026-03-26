@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IdentityRoleDtoPagedResultDto } from 'puupee-api-axios';
+import { IdentityRoleDtoPagedResultDto } from 'puupee-api';
 
 const instance: IdentityRoleDtoPagedResultDto = {
     items,

@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ControllerInterfaceApiDescriptionModel } from 'puupee-api-axios';
+import { ControllerInterfaceApiDescriptionModel } from 'puupee-api';
 
 const instance: ControllerInterfaceApiDescriptionModel = {
     type,

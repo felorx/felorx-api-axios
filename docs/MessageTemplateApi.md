@@ -21,7 +21,7 @@ import {
     MessageTemplateApi,
     Configuration,
     CreateOrUpdateMessageTemplateDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageTemplateApi(configuration);
@@ -77,7 +77,7 @@ const { status, data } = await apiInstance.createMessageTemplate(
 import {
     MessageTemplateApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageTemplateApi(configuration);
@@ -133,7 +133,7 @@ void (empty response body)
 import {
     MessageTemplateApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageTemplateApi(configuration);
@@ -189,7 +189,7 @@ const { status, data } = await apiInstance.getMessageTemplateById(
 import {
     MessageTemplateApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageTemplateApi(configuration);
@@ -239,7 +239,7 @@ import {
     MessageTemplateApi,
     Configuration,
     CreateOrUpdateMessageTemplateDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageTemplateApi(configuration);

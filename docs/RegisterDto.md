@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { RegisterDto } from 'puupee-api-axios';
+import { RegisterDto } from 'puupee-api';
 
 const instance: RegisterDto = {
     extraProperties,

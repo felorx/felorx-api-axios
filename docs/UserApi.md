@@ -26,7 +26,7 @@ import {
     UserApi,
     Configuration,
     IdentityUserCreateDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserApi(configuration);
@@ -82,7 +82,7 @@ const { status, data } = await apiInstance.createIdentityUser(
 import {
     UserApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserApi(configuration);
@@ -138,7 +138,7 @@ void (empty response body)
 import {
     UserApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserApi(configuration);
@@ -194,7 +194,7 @@ const { status, data } = await apiInstance.findByEmail(
 import {
     UserApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserApi(configuration);
@@ -250,7 +250,7 @@ const { status, data } = await apiInstance.findByUsername(
 import {
     UserApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserApi(configuration);
@@ -299,7 +299,7 @@ This endpoint does not have any parameters.
 import {
     UserApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserApi(configuration);
@@ -355,7 +355,7 @@ const { status, data } = await apiInstance.getIdentityUserById(
 import {
     UserApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserApi(configuration);
@@ -420,7 +420,7 @@ const { status, data } = await apiInstance.getIdentityUserList(
 import {
     UserApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserApi(configuration);
@@ -477,7 +477,7 @@ import {
     UserApi,
     Configuration,
     IdentityUserUpdateDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserApi(configuration);
@@ -537,7 +537,7 @@ import {
     UserApi,
     Configuration,
     IdentityUserUpdateRolesDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserApi(configuration);

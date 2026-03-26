@@ -16,7 +16,7 @@ All URIs are relative to *http://localhost*
 import {
     AbpApplicationConfigurationApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AbpApplicationConfigurationApi(configuration);

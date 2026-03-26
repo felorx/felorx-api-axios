@@ -18,7 +18,7 @@ All URIs are relative to *http://localhost*
 import {
     TimeZoneSettingsApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new TimeZoneSettingsApi(configuration);
@@ -67,7 +67,7 @@ This endpoint does not have any parameters.
 import {
     TimeZoneSettingsApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new TimeZoneSettingsApi(configuration);
@@ -116,7 +116,7 @@ This endpoint does not have any parameters.
 import {
     TimeZoneSettingsApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new TimeZoneSettingsApi(configuration);

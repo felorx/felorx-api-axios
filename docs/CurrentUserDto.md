@@ -24,7 +24,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CurrentUserDto } from 'puupee-api-axios';
+import { CurrentUserDto } from 'puupee-api';
 
 const instance: CurrentUserDto = {
     isAuthenticated,

@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CurrentCultureDto } from 'puupee-api-axios';
+import { CurrentCultureDto } from 'puupee-api';
 
 const instance: CurrentCultureDto = {
     displayName,

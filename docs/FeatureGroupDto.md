@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { FeatureGroupDto } from 'puupee-api-axios';
+import { FeatureGroupDto } from 'puupee-api';
 
 const instance: FeatureGroupDto = {
     name,

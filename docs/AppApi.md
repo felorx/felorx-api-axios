@@ -4,20 +4,20 @@ All URIs are relative to *http://localhost*
 
 |Method | HTTP request | Description|
 |------------- | ------------- | -------------|
-|[**createApp**](#createapp) | **POST** /api/app/app | 创建新应用|
-|[**deleteAppById**](#deleteappbyid) | **DELETE** /api/app/app/{id} | 删除应用|
-|[**getAppById**](#getappbyid) | **GET** /api/app/app/{id} | 获取 APP 详情|
-|[**getAppList**](#getapplist) | **GET** /api/app/app | 获取当前用户的应用列表|
-|[**getByName**](#getbyname) | **GET** /api/app/app/by-name | 获取 APP 详情|
+|[**createApp**](#createapp) | **POST** /api/app/app | |
+|[**deleteAppById**](#deleteappbyid) | **DELETE** /api/app/app/{id} | |
+|[**getAppById**](#getappbyid) | **GET** /api/app/app/{id} | |
+|[**getAppList**](#getapplist) | **GET** /api/app/app | |
+|[**getByName**](#getbyname) | **GET** /api/app/app/by-name | |
 |[**getFeatureList**](#getfeaturelist) | **GET** /api/app/app/feature-list/{appId} | |
-|[**getListByDeveloperAll**](#getlistbydeveloperall) | **GET** /api/app/app/by-developer-all | 获取开发者所有 APP 包括未发布的|
-|[**getListPublic**](#getlistpublic) | **GET** /api/app/app/public | 所有开发者已发布 APP 列表|
-|[**getListWithUser**](#getlistwithuser) | **GET** /api/app/app/with-user | 获取APP列表包含用户订阅信息|
+|[**getListByDeveloperAll**](#getlistbydeveloperall) | **GET** /api/app/app/by-developer-all | |
+|[**getListPublic**](#getlistpublic) | **GET** /api/app/app/public | |
+|[**getListWithUser**](#getlistwithuser) | **GET** /api/app/app/with-user | |
 |[**getSdksById**](#getsdksbyid) | **GET** /api/app/app/sdks-by-id/{appId} | |
-|[**getUploadCredentials**](#getuploadcredentials) | **GET** /api/app/app/upload-credentials | 获取上传凭证|
-|[**getWithUser**](#getwithuser) | **GET** /api/app/app/{id}/with-user | 获取 APP 详情|
+|[**getUploadCredentials**](#getuploadcredentials) | **GET** /api/app/app/upload-credentials | |
+|[**getWithUser**](#getwithuser) | **GET** /api/app/app/{id}/with-user | |
 |[**run**](#run) | **POST** /api/app/app/run | |
-|[**updateApp**](#updateapp) | **PUT** /api/app/app/{id} | 更新 APP 信息|
+|[**updateApp**](#updateapp) | **PUT** /api/app/app/{id} | |
 |[**updateRunState**](#updaterunstate) | **PUT** /api/app/app/{id}/run-state | |
 
 # **createApp**
@@ -31,7 +31,7 @@ import {
     AppApi,
     Configuration,
     CreateOrUpdateAppDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -87,7 +87,7 @@ const { status, data } = await apiInstance.createApp(
 import {
     AppApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -143,7 +143,7 @@ void (empty response body)
 import {
     AppApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -199,7 +199,7 @@ const { status, data } = await apiInstance.getAppById(
 import {
     AppApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -264,7 +264,7 @@ const { status, data } = await apiInstance.getAppList(
 import {
     AppApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -320,7 +320,7 @@ const { status, data } = await apiInstance.getByName(
 import {
     AppApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -379,7 +379,7 @@ const { status, data } = await apiInstance.getFeatureList(
 import {
     AppApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -435,7 +435,7 @@ const { status, data } = await apiInstance.getListByDeveloperAll(
 import {
     AppApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -497,7 +497,7 @@ const { status, data } = await apiInstance.getListPublic(
 import {
     AppApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -565,7 +565,7 @@ const { status, data } = await apiInstance.getListWithUser(
 import {
     AppApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -624,7 +624,7 @@ const { status, data } = await apiInstance.getSdksById(
 import {
     AppApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -680,7 +680,7 @@ const { status, data } = await apiInstance.getUploadCredentials(
 import {
     AppApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -737,7 +737,7 @@ import {
     AppApi,
     Configuration,
     AppRunDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -794,7 +794,7 @@ import {
     AppApi,
     Configuration,
     CreateOrUpdateAppDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);
@@ -854,7 +854,7 @@ import {
     AppApi,
     Configuration,
     AppRunRecordUpdateDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppApi(configuration);

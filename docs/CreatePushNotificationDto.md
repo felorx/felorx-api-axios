@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CreatePushNotificationDto } from 'puupee-api-axios';
+import { CreatePushNotificationDto } from 'puupee-api';
 
 const instance: CreatePushNotificationDto = {
     title,

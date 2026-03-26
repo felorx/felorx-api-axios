@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { StorageObjectCredentials } from 'puupee-api-axios';
+import { StorageObjectCredentials } from 'puupee-api';
 
 const instance: StorageObjectCredentials = {
     storageClass,

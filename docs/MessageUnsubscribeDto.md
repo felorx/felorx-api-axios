@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { MessageUnsubscribeDto } from 'puupee-api-axios';
+import { MessageUnsubscribeDto } from 'puupee-api';
 
 const instance: MessageUnsubscribeDto = {
     appId,

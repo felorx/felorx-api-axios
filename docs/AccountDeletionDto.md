@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { AccountDeletionDto } from 'puupee-api-axios';
+import { AccountDeletionDto } from 'puupee-api';
 
 const instance: AccountDeletionDto = {
     code,

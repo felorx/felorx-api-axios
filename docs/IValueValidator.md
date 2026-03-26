@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IValueValidator } from 'puupee-api-axios';
+import { IValueValidator } from 'puupee-api';
 
 const instance: IValueValidator = {
     name,

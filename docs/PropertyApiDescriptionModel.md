@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { PropertyApiDescriptionModel } from 'puupee-api-axios';
+import { PropertyApiDescriptionModel } from 'puupee-api';
 
 const instance: PropertyApiDescriptionModel = {
     name,

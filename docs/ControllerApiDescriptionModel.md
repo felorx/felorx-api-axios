@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ControllerApiDescriptionModel } from 'puupee-api-axios';
+import { ControllerApiDescriptionModel } from 'puupee-api';
 
 const instance: ControllerApiDescriptionModel = {
     controllerName,

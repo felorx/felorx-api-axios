@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ProviderInfoDto } from 'puupee-api-axios';
+import { ProviderInfoDto } from 'puupee-api';
 
 const instance: ProviderInfoDto = {
     providerName,

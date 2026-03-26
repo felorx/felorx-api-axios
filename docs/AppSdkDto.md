@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { AppSdkDto } from 'puupee-api-axios';
+import { AppSdkDto } from 'puupee-api';
 
 const instance: AppSdkDto = {
     id,

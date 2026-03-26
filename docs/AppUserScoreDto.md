@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { AppUserScoreDto } from 'puupee-api-axios';
+import { AppUserScoreDto } from 'puupee-api';
 
 const instance: AppUserScoreDto = {
     id,

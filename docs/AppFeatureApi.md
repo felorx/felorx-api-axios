@@ -20,7 +20,7 @@ import {
     AppFeatureApi,
     Configuration,
     CreateOrUpdateAppFeatureDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppFeatureApi(configuration);
@@ -76,7 +76,7 @@ const { status, data } = await apiInstance.createAppFeature(
 import {
     AppFeatureApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppFeatureApi(configuration);
@@ -132,16 +132,18 @@ void (empty response body)
 import {
     AppFeatureApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppFeatureApi(configuration);
 
+let appId: string; // (optional) (default to undefined)
 let sorting: string; // (optional) (default to undefined)
 let skipCount: number; // (optional) (default to undefined)
 let maxResultCount: number; // (optional) (default to undefined)
 
 const { status, data } = await apiInstance.getAppFeatureList(
+    appId,
     sorting,
     skipCount,
     maxResultCount
@@ -152,6 +154,7 @@ const { status, data } = await apiInstance.getAppFeatureList(
 
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
+| **appId** | [**string**] |  | (optional) defaults to undefined|
 | **sorting** | [**string**] |  | (optional) defaults to undefined|
 | **skipCount** | [**number**] |  | (optional) defaults to undefined|
 | **maxResultCount** | [**number**] |  | (optional) defaults to undefined|
@@ -195,7 +198,7 @@ import {
     AppFeatureApi,
     Configuration,
     CreateOrUpdateAppFeatureDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppFeatureApi(configuration);

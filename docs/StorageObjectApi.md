@@ -19,7 +19,7 @@ All URIs are relative to *http://localhost*
 import {
     StorageObjectApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new StorageObjectApi(configuration);
@@ -68,7 +68,7 @@ This endpoint does not have any parameters.
 import {
     StorageObjectApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new StorageObjectApi(configuration);
@@ -133,7 +133,7 @@ const { status, data } = await apiInstance.getFileCredential(
 import {
     StorageObjectApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new StorageObjectApi(configuration);
@@ -182,7 +182,7 @@ This endpoint does not have any parameters.
 import {
     StorageObjectApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new StorageObjectApi(configuration);

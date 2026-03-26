@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { LocalizableStringDto } from 'puupee-api-axios';
+import { LocalizableStringDto } from 'puupee-api';
 
 const instance: LocalizableStringDto = {
     name,

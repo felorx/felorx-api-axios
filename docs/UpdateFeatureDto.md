@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { UpdateFeatureDto } from 'puupee-api-axios';
+import { UpdateFeatureDto } from 'puupee-api';
 
 const instance: UpdateFeatureDto = {
     name,

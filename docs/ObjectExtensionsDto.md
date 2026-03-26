@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ObjectExtensionsDto } from 'puupee-api-axios';
+import { ObjectExtensionsDto } from 'puupee-api';
 
 const instance: ObjectExtensionsDto = {
     modules,

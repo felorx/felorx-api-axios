@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ExtensionPropertyApiDto } from 'puupee-api-axios';
+import { ExtensionPropertyApiDto } from 'puupee-api';
 
 const instance: ExtensionPropertyApiDto = {
     onGet,

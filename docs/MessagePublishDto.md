@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { MessagePublishDto } from 'puupee-api-axios';
+import { MessagePublishDto } from 'puupee-api';
 
 const instance: MessagePublishDto = {
     title,

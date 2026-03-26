@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { PendingRenewalInfo } from 'puupee-api-axios';
+import { PendingRenewalInfo } from 'puupee-api';
 
 const instance: PendingRenewalInfo = {
     auto_renew_product_id,

@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ExtensionPropertyUiFormDto } from 'puupee-api-axios';
+import { ExtensionPropertyUiFormDto } from 'puupee-api';
 
 const instance: ExtensionPropertyUiFormDto = {
     isVisible,

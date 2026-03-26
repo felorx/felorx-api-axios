@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ClockDto } from 'puupee-api-axios';
+import { ClockDto } from 'puupee-api';
 
 const instance: ClockDto = {
     kind,

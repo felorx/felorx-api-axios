@@ -33,7 +33,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { AppReleaseDto } from 'puupee-api-axios';
+import { AppReleaseDto } from 'puupee-api';
 
 const instance: AppReleaseDto = {
     id,

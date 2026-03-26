@@ -24,7 +24,7 @@ import {
     AccountApi,
     Configuration,
     ChangePasswordDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AccountApi(configuration);
@@ -80,7 +80,7 @@ void (empty response body)
 import {
     AccountApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AccountApi(configuration);
@@ -130,7 +130,7 @@ import {
     AccountApi,
     Configuration,
     AccountDeletionDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AccountApi(configuration);
@@ -186,7 +186,7 @@ void (empty response body)
 import {
     AccountApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AccountApi(configuration);
@@ -236,7 +236,7 @@ import {
     AccountApi,
     Configuration,
     RegisterDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AccountApi(configuration);
@@ -293,7 +293,7 @@ import {
     AccountApi,
     Configuration,
     ResetPasswordDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AccountApi(configuration);
@@ -350,7 +350,7 @@ import {
     AccountApi,
     Configuration,
     SendPasswordResetCodeDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AccountApi(configuration);
@@ -407,7 +407,7 @@ import {
     AccountApi,
     Configuration,
     VerifyPasswordResetTokenInput
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AccountApi(configuration);

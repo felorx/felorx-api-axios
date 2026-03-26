@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IdentityUserClaim } from 'puupee-api-axios';
+import { IdentityUserClaim } from 'puupee-api';
 
 const instance: IdentityUserClaim = {
     id,

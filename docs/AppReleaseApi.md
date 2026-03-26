@@ -23,7 +23,7 @@ import {
     AppReleaseApi,
     Configuration,
     CreateOrUpdateAppReleaseDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppReleaseApi(configuration);
@@ -79,7 +79,7 @@ const { status, data } = await apiInstance.createAppRelease(
 import {
     AppReleaseApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppReleaseApi(configuration);
@@ -135,7 +135,7 @@ void (empty response body)
 import {
     AppReleaseApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppReleaseApi(configuration);
@@ -191,7 +191,7 @@ const { status, data } = await apiInstance.getAppReleaseById(
 import {
     AppReleaseApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppReleaseApi(configuration);
@@ -265,7 +265,7 @@ const { status, data } = await apiInstance.getAppReleaseList(
 import {
     AppReleaseApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppReleaseApi(configuration);
@@ -330,7 +330,7 @@ const { status, data } = await apiInstance.getLatest(
 import {
     AppReleaseApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppReleaseApi(configuration);
@@ -405,7 +405,7 @@ import {
     AppReleaseApi,
     Configuration,
     CreateOrUpdateAppReleaseDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppReleaseApi(configuration);

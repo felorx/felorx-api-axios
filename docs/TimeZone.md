@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { TimeZone } from 'puupee-api-axios';
+import { TimeZone } from 'puupee-api';
 
 const instance: TimeZone = {
     iana,

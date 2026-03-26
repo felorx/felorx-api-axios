@@ -18,7 +18,7 @@ All URIs are relative to *http://localhost*
 import {
     EmailSettingsApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new EmailSettingsApi(configuration);
@@ -68,7 +68,7 @@ import {
     EmailSettingsApi,
     Configuration,
     SendTestEmailInput
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new EmailSettingsApi(configuration);
@@ -125,7 +125,7 @@ import {
     EmailSettingsApi,
     Configuration,
     UpdateEmailSettingsDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new EmailSettingsApi(configuration);

@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ModuleApiDescriptionModel } from 'puupee-api-axios';
+import { ModuleApiDescriptionModel } from 'puupee-api';
 
 const instance: ModuleApiDescriptionModel = {
     rootPath,

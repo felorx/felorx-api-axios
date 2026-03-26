@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { AppleVerifyReceiptResult } from 'puupee-api-axios';
+import { AppleVerifyReceiptResult } from 'puupee-api';
 
 const instance: AppleVerifyReceiptResult = {
     environment,

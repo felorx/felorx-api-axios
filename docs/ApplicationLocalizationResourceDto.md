@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ApplicationLocalizationResourceDto } from 'puupee-api-axios';
+import { ApplicationLocalizationResourceDto } from 'puupee-api';
 
 const instance: ApplicationLocalizationResourceDto = {
     texts,

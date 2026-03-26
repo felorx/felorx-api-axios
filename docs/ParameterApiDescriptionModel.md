@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ParameterApiDescriptionModel } from 'puupee-api-axios';
+import { ParameterApiDescriptionModel } from 'puupee-api';
 
 const instance: ParameterApiDescriptionModel = {
     nameOnMethod,

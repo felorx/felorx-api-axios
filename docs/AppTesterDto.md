@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { AppTesterDto } from 'puupee-api-axios';
+import { AppTesterDto } from 'puupee-api';
 
 const instance: AppTesterDto = {
     id,

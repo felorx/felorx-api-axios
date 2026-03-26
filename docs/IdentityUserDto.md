@@ -33,7 +33,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IdentityUserDto } from 'puupee-api-axios';
+import { IdentityUserDto } from 'puupee-api';
 
 const instance: IdentityUserDto = {
     extraProperties,

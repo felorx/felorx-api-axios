@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { DeviceDtoPagedResultDto } from 'puupee-api-axios';
+import { DeviceDtoPagedResultDto } from 'puupee-api';
 
 const instance: DeviceDtoPagedResultDto = {
     items,

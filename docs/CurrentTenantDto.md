@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CurrentTenantDto } from 'puupee-api-axios';
+import { CurrentTenantDto } from 'puupee-api';
 
 const instance: CurrentTenantDto = {
     id,

@@ -20,7 +20,7 @@ import {
     AppSdkApi,
     Configuration,
     CreateOrUpdateAppSdkDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppSdkApi(configuration);
@@ -76,7 +76,7 @@ const { status, data } = await apiInstance.createAppSdk(
 import {
     AppSdkApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppSdkApi(configuration);
@@ -132,7 +132,7 @@ void (empty response body)
 import {
     AppSdkApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppSdkApi(configuration);
@@ -195,7 +195,7 @@ import {
     AppSdkApi,
     Configuration,
     CreateOrUpdateAppSdkDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppSdkApi(configuration);

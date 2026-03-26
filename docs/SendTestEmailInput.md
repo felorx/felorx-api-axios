@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { SendTestEmailInput } from 'puupee-api-axios';
+import { SendTestEmailInput } from 'puupee-api';
 
 const instance: SendTestEmailInput = {
     senderEmailAddress,

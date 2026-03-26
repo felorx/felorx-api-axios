@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IdentityRoleDtoListResultDto } from 'puupee-api-axios';
+import { IdentityRoleDtoListResultDto } from 'puupee-api';
 
 const instance: IdentityRoleDtoListResultDto = {
     items,

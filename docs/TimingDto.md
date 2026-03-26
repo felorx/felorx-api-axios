@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { TimingDto } from 'puupee-api-axios';
+import { TimingDto } from 'puupee-api';
 
 const instance: TimingDto = {
     timeZone,

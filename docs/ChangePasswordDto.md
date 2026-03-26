@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ChangePasswordDto } from 'puupee-api-axios';
+import { ChangePasswordDto } from 'puupee-api';
 
 const instance: ChangePasswordDto = {
     code,

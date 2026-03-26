@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { MessageTemplateDto } from 'puupee-api-axios';
+import { MessageTemplateDto } from 'puupee-api';
 
 const instance: MessageTemplateDto = {
     id,

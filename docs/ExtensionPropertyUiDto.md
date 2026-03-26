@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ExtensionPropertyUiDto } from 'puupee-api-axios';
+import { ExtensionPropertyUiDto } from 'puupee-api';
 
 const instance: ExtensionPropertyUiDto = {
     onTable,

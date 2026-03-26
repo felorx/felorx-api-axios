@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { DeployRecordDtoPagedResultDto } from 'puupee-api-axios';
+import { DeployRecordDtoPagedResultDto } from 'puupee-api';
 
 const instance: DeployRecordDtoPagedResultDto = {
     items,

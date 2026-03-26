@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CheckSyncAuthResultDto } from 'puupee-api-axios';
+import { CheckSyncAuthResultDto } from 'puupee-api';
 
 const instance: CheckSyncAuthResultDto = {
     isAuthed,

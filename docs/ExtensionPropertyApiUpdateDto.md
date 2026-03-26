@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ExtensionPropertyApiUpdateDto } from 'puupee-api-axios';
+import { ExtensionPropertyApiUpdateDto } from 'puupee-api';
 
 const instance: ExtensionPropertyApiUpdateDto = {
     isAvailable,

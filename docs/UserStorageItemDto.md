@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { UserStorageItemDto } from 'puupee-api-axios';
+import { UserStorageItemDto } from 'puupee-api';
 
 const instance: UserStorageItemDto = {
     name,

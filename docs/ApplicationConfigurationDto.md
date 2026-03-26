@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ApplicationConfigurationDto } from 'puupee-api-axios';
+import { ApplicationConfigurationDto } from 'puupee-api';
 
 const instance: ApplicationConfigurationDto = {
     localization,

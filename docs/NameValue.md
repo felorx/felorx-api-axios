@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { NameValue } from 'puupee-api-axios';
+import { NameValue } from 'puupee-api';
 
 const instance: NameValue = {
     name,

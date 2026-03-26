@@ -28,7 +28,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { AppRunRecordDto } from 'puupee-api-axios';
+import { AppRunRecordDto } from 'puupee-api';
 
 const instance: AppRunRecordDto = {
     id,

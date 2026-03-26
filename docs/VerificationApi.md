@@ -18,7 +18,7 @@ import {
     VerificationApi,
     Configuration,
     SendVerificationCodeDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new VerificationApi(configuration);
@@ -75,7 +75,7 @@ import {
     VerificationApi,
     Configuration,
     SendVerificationCodeDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new VerificationApi(configuration);

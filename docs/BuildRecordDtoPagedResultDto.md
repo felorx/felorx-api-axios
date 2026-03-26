@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { BuildRecordDtoPagedResultDto } from 'puupee-api-axios';
+import { BuildRecordDtoPagedResultDto } from 'puupee-api';
 
 const instance: BuildRecordDtoPagedResultDto = {
     items,

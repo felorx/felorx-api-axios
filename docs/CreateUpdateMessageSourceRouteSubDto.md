@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CreateUpdateMessageSourceRouteSubDto } from 'puupee-api-axios';
+import { CreateUpdateMessageSourceRouteSubDto } from 'puupee-api';
 
 const instance: CreateUpdateMessageSourceRouteSubDto = {
     routeId,

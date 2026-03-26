@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { DeviceDto } from 'puupee-api-axios';
+import { DeviceDto } from 'puupee-api';
 
 const instance: DeviceDto = {
     id,

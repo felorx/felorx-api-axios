@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { FindTenantResultDto } from 'puupee-api-axios';
+import { FindTenantResultDto } from 'puupee-api';
 
 const instance: FindTenantResultDto = {
     success,

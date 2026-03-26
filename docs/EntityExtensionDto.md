@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { EntityExtensionDto } from 'puupee-api-axios';
+import { EntityExtensionDto } from 'puupee-api';
 
 const instance: EntityExtensionDto = {
     properties,

@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CreateOrUpdateAppSdkDto } from 'puupee-api-axios';
+import { CreateOrUpdateAppSdkDto } from 'puupee-api';
 
 const instance: CreateOrUpdateAppSdkDto = {
     name,

@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CreateOrUpdateAppUserScoreDto } from 'puupee-api-axios';
+import { CreateOrUpdateAppUserScoreDto } from 'puupee-api';
 
 const instance: CreateOrUpdateAppUserScoreDto = {
     appId,

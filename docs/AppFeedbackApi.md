@@ -22,7 +22,7 @@ import {
     AppFeedbackApi,
     Configuration,
     CreateAppFeedbackDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppFeedbackApi(configuration);
@@ -78,7 +78,7 @@ const { status, data } = await apiInstance.createAppFeedback(
 import {
     AppFeedbackApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppFeedbackApi(configuration);
@@ -134,7 +134,7 @@ void (empty response body)
 import {
     AppFeedbackApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppFeedbackApi(configuration);
@@ -190,7 +190,7 @@ const { status, data } = await apiInstance.getAppFeedbackById(
 import {
     AppFeedbackApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppFeedbackApi(configuration);
@@ -261,7 +261,7 @@ const { status, data } = await apiInstance.getAppFeedbackList(
 import {
     AppFeedbackApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppFeedbackApi(configuration);
@@ -318,7 +318,7 @@ import {
     AppFeedbackApi,
     Configuration,
     ReplyAppFeedbackDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppFeedbackApi(configuration);

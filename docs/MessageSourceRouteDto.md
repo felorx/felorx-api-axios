@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { MessageSourceRouteDto } from 'puupee-api-axios';
+import { MessageSourceRouteDto } from 'puupee-api';
 
 const instance: MessageSourceRouteDto = {
     title,

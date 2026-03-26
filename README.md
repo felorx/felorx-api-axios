@@ -1,4 +1,4 @@
-## puupee-api-axios@1.17.86
+## puupee-api@1.0.0
 
 This generator creates TypeScript/JavaScript client that utilizes [axios](https://github.com/axios/axios). The generated Node module can be used in the following environments:
 
@@ -36,7 +36,7 @@ navigate to the folder of your consuming project and run one of the following co
 _published:_
 
 ```
-npm install puupee-api-axios@1.17.86 --save
+npm install puupee-api@1.0.0 --save
 ```
 
 _unPublished (not recommended):_
@@ -69,21 +69,25 @@ Class | Method | HTTP request | Description
 *ApiKeysApi* | [**getApiKeysById**](docs/ApiKeysApi.md#getapikeysbyid) | **GET** /api/api-keys/{id} | 
 *ApiKeysApi* | [**getApiKeysList**](docs/ApiKeysApi.md#getapikeyslist) | **GET** /api/api-keys | 
 *ApiKeysApi* | [**updateApiKeys**](docs/ApiKeysApi.md#updateapikeys) | **PUT** /api/api-keys/{id} | 
-*AppApi* | [**createApp**](docs/AppApi.md#createapp) | **POST** /api/app/app | 创建新应用
-*AppApi* | [**deleteAppById**](docs/AppApi.md#deleteappbyid) | **DELETE** /api/app/app/{id} | 删除应用
-*AppApi* | [**getAppById**](docs/AppApi.md#getappbyid) | **GET** /api/app/app/{id} | 获取 APP 详情
-*AppApi* | [**getAppList**](docs/AppApi.md#getapplist) | **GET** /api/app/app | 获取当前用户的应用列表
-*AppApi* | [**getByName**](docs/AppApi.md#getbyname) | **GET** /api/app/app/by-name | 获取 APP 详情
+*AppApi* | [**createApp**](docs/AppApi.md#createapp) | **POST** /api/app/app | 
+*AppApi* | [**deleteAppById**](docs/AppApi.md#deleteappbyid) | **DELETE** /api/app/app/{id} | 
+*AppApi* | [**getAppById**](docs/AppApi.md#getappbyid) | **GET** /api/app/app/{id} | 
+*AppApi* | [**getAppList**](docs/AppApi.md#getapplist) | **GET** /api/app/app | 
+*AppApi* | [**getByName**](docs/AppApi.md#getbyname) | **GET** /api/app/app/by-name | 
 *AppApi* | [**getFeatureList**](docs/AppApi.md#getfeaturelist) | **GET** /api/app/app/feature-list/{appId} | 
-*AppApi* | [**getListByDeveloperAll**](docs/AppApi.md#getlistbydeveloperall) | **GET** /api/app/app/by-developer-all | 获取开发者所有 APP 包括未发布的
-*AppApi* | [**getListPublic**](docs/AppApi.md#getlistpublic) | **GET** /api/app/app/public | 所有开发者已发布 APP 列表
-*AppApi* | [**getListWithUser**](docs/AppApi.md#getlistwithuser) | **GET** /api/app/app/with-user | 获取APP列表包含用户订阅信息
+*AppApi* | [**getListByDeveloperAll**](docs/AppApi.md#getlistbydeveloperall) | **GET** /api/app/app/by-developer-all | 
+*AppApi* | [**getListPublic**](docs/AppApi.md#getlistpublic) | **GET** /api/app/app/public | 
+*AppApi* | [**getListWithUser**](docs/AppApi.md#getlistwithuser) | **GET** /api/app/app/with-user | 
 *AppApi* | [**getSdksById**](docs/AppApi.md#getsdksbyid) | **GET** /api/app/app/sdks-by-id/{appId} | 
-*AppApi* | [**getUploadCredentials**](docs/AppApi.md#getuploadcredentials) | **GET** /api/app/app/upload-credentials | 获取上传凭证
-*AppApi* | [**getWithUser**](docs/AppApi.md#getwithuser) | **GET** /api/app/app/{id}/with-user | 获取 APP 详情
+*AppApi* | [**getUploadCredentials**](docs/AppApi.md#getuploadcredentials) | **GET** /api/app/app/upload-credentials | 
+*AppApi* | [**getWithUser**](docs/AppApi.md#getwithuser) | **GET** /api/app/app/{id}/with-user | 
 *AppApi* | [**run**](docs/AppApi.md#run) | **POST** /api/app/app/run | 
-*AppApi* | [**updateApp**](docs/AppApi.md#updateapp) | **PUT** /api/app/app/{id} | 更新 APP 信息
+*AppApi* | [**updateApp**](docs/AppApi.md#updateapp) | **PUT** /api/app/app/{id} | 
 *AppApi* | [**updateRunState**](docs/AppApi.md#updaterunstate) | **PUT** /api/app/app/{id}/run-state | 
+*AppAssetApi* | [**createAppAsset**](docs/AppAssetApi.md#createappasset) | **POST** /api/app/app-asset | 
+*AppAssetApi* | [**deleteAppAssetById**](docs/AppAssetApi.md#deleteappassetbyid) | **DELETE** /api/app/app-asset/{id} | 
+*AppAssetApi* | [**getListByAppLocaleId**](docs/AppAssetApi.md#getlistbyapplocaleid) | **GET** /api/app/app-asset/by-app-locale-id/{appLocaleId} | 
+*AppAssetApi* | [**updateAppAsset**](docs/AppAssetApi.md#updateappasset) | **PUT** /api/app/app-asset/{id} | 
 *AppFeatureApi* | [**createAppFeature**](docs/AppFeatureApi.md#createappfeature) | **POST** /api/app/app-feature | 
 *AppFeatureApi* | [**deleteAppFeatureById**](docs/AppFeatureApi.md#deleteappfeaturebyid) | **DELETE** /api/app/app-feature/{id} | 
 *AppFeatureApi* | [**getAppFeatureList**](docs/AppFeatureApi.md#getappfeaturelist) | **GET** /api/app/app-feature | 
@@ -94,11 +98,15 @@ Class | Method | HTTP request | Description
 *AppFeedbackApi* | [**getAppFeedbackList**](docs/AppFeedbackApi.md#getappfeedbacklist) | **GET** /api/app/app-feedback | 
 *AppFeedbackApi* | [**markAsProcessed**](docs/AppFeedbackApi.md#markasprocessed) | **POST** /api/app/app-feedback/{id}/mark-as-processed | 
 *AppFeedbackApi* | [**reply**](docs/AppFeedbackApi.md#reply) | **POST** /api/app/app-feedback/{id}/reply | 
+*AppLocaleApi* | [**createAppLocale**](docs/AppLocaleApi.md#createapplocale) | **POST** /api/app/app-locale | 
+*AppLocaleApi* | [**deleteAppLocaleById**](docs/AppLocaleApi.md#deleteapplocalebyid) | **DELETE** /api/app/app-locale/{id} | 
+*AppLocaleApi* | [**getListByAppId**](docs/AppLocaleApi.md#getlistbyappid) | **GET** /api/app/app-locale/by-app-id/{appId} | 
+*AppLocaleApi* | [**updateAppLocale**](docs/AppLocaleApi.md#updateapplocale) | **PUT** /api/app/app-locale/{id} | 
 *AppPricingApi* | [**createAppPricing**](docs/AppPricingApi.md#createapppricing) | **POST** /api/app/app-pricing | 
 *AppPricingApi* | [**deleteAppPricingById**](docs/AppPricingApi.md#deleteapppricingbyid) | **DELETE** /api/app/app-pricing/{id} | 
 *AppPricingApi* | [**getAppPricingById**](docs/AppPricingApi.md#getapppricingbyid) | **GET** /api/app/app-pricing/{id} | 
 *AppPricingApi* | [**getAppPricingList**](docs/AppPricingApi.md#getapppricinglist) | **GET** /api/app/app-pricing | 
-*AppPricingApi* | [**getListByAppId**](docs/AppPricingApi.md#getlistbyappid) | **GET** /api/app/app-pricing/by-app-id/{appId} | 
+*AppPricingApi* | [**getListByAppId**](docs/AppPricingApi.md#getlistbyappid) | **GET** /api/app/app-pricing/by-app-id/{appId} | 获取应用定价方案列表，允许匿名访问供未登录用户查看订阅计划
 *AppPricingApi* | [**getPricingItemsByAppId**](docs/AppPricingApi.md#getpricingitemsbyappid) | **GET** /api/app/app-pricing/pricing-items-by-app-id/{appId} | 
 *AppPricingApi* | [**updateAppPricing**](docs/AppPricingApi.md#updateapppricing) | **PUT** /api/app/app-pricing/{id} | 
 *AppPricingItemApi* | [**createAppPricingItem**](docs/AppPricingItemApi.md#createapppricingitem) | **POST** /api/app/app-pricing-item | 
@@ -209,8 +217,11 @@ Class | Method | HTTP request | Description
 *StorageObjectApi* | [**getUserStorages**](docs/StorageObjectApi.md#getuserstorages) | **GET** /api/app/storage-object/user-storages | 
 *StorageObjectApi* | [**preSignUrl**](docs/StorageObjectApi.md#presignurl) | **POST** /api/app/storage-object/pre-sign-url | 
 *SubscriptionApi* | [**appleNotifications**](docs/SubscriptionApi.md#applenotifications) | **POST** /api/app/subscription/apple-notifications | 苹果订阅 Callback 地址
+*SubscriptionApi* | [**capturePayPalOrder**](docs/SubscriptionApi.md#capturepaypalorder) | **POST** /api/app/subscription/capture-pay-pal-order | 捕获 PayPal 订单并完成订阅
 *SubscriptionApi* | [**createOrder**](docs/SubscriptionApi.md#createorder) | **POST** /api/app/subscription/order | 
+*SubscriptionApi* | [**createPayPalOrder**](docs/SubscriptionApi.md#createpaypalorder) | **POST** /api/app/subscription/pay-pal-order | 创建 PayPal 订单
 *SubscriptionApi* | [**getSubscriptionById**](docs/SubscriptionApi.md#getsubscriptionbyid) | **GET** /api/app/subscription | 
+*SubscriptionApi* | [**getSubscriptionList**](docs/SubscriptionApi.md#getsubscriptionlist) | **GET** /api/app/subscription/list | 获取用户订阅列表，每个应用只返回最新的一条订阅记录（含有效和已过期的）
 *SubscriptionApi* | [**verifyReceipt**](docs/SubscriptionApi.md#verifyreceipt) | **POST** /api/app/subscription/verify-receipt | 
 *TenantApi* | [**createTenant**](docs/TenantApi.md#createtenant) | **POST** /api/multi-tenancy/tenants | 
 *TenantApi* | [**deleteDefaultConnectionString**](docs/TenantApi.md#deletedefaultconnectionstring) | **DELETE** /api/multi-tenancy/tenants/{id}/default-connection-string | 
@@ -249,15 +260,20 @@ Class | Method | HTTP request | Description
  - [ApiKeyDto](docs/ApiKeyDto.md)
  - [ApiKeyDtoPagedResultDto](docs/ApiKeyDtoPagedResultDto.md)
  - [ApiKeyUpdateDto](docs/ApiKeyUpdateDto.md)
+ - [AppAssetDeviceType](docs/AppAssetDeviceType.md)
+ - [AppAssetDto](docs/AppAssetDto.md)
+ - [AppAssetType](docs/AppAssetType.md)
  - [AppDto](docs/AppDto.md)
  - [AppDtoPagedResultDto](docs/AppDtoPagedResultDto.md)
  - [AppFeatureDto](docs/AppFeatureDto.md)
  - [AppFeatureDtoPagedResultDto](docs/AppFeatureDtoPagedResultDto.md)
+ - [AppFeatureLocaleDto](docs/AppFeatureLocaleDto.md)
  - [AppFeedbackDto](docs/AppFeedbackDto.md)
  - [AppFeedbackDtoPagedResultDto](docs/AppFeedbackDtoPagedResultDto.md)
  - [AppFeedbackStatus](docs/AppFeedbackStatus.md)
  - [AppFeedbackType](docs/AppFeedbackType.md)
  - [AppFramework](docs/AppFramework.md)
+ - [AppLocaleDto](docs/AppLocaleDto.md)
  - [AppPlatform](docs/AppPlatform.md)
  - [AppPriceNaming](docs/AppPriceNaming.md)
  - [AppPricingDto](docs/AppPricingDto.md)
@@ -297,6 +313,7 @@ Class | Method | HTTP request | Description
  - [BuildRecordDtoPagedResultDto](docs/BuildRecordDtoPagedResultDto.md)
  - [BuildStatus](docs/BuildStatus.md)
  - [BuildTrigger](docs/BuildTrigger.md)
+ - [CapturePayPalOrderDto](docs/CapturePayPalOrderDto.md)
  - [CdnDomainDto](docs/CdnDomainDto.md)
  - [ChangePasswordDto](docs/ChangePasswordDto.md)
  - [ChangePasswordInput](docs/ChangePasswordInput.md)
@@ -311,14 +328,19 @@ Class | Method | HTTP request | Description
  - [CreateMessageTemplateReleaseDto](docs/CreateMessageTemplateReleaseDto.md)
  - [CreateOpenIddictApplicationDto](docs/CreateOpenIddictApplicationDto.md)
  - [CreateOrGetSubscriptionOrderDto](docs/CreateOrGetSubscriptionOrderDto.md)
+ - [CreateOrUpdateAppAssetDto](docs/CreateOrUpdateAppAssetDto.md)
  - [CreateOrUpdateAppDto](docs/CreateOrUpdateAppDto.md)
  - [CreateOrUpdateAppFeatureDto](docs/CreateOrUpdateAppFeatureDto.md)
+ - [CreateOrUpdateAppFeatureLocaleDto](docs/CreateOrUpdateAppFeatureLocaleDto.md)
+ - [CreateOrUpdateAppLocaleDto](docs/CreateOrUpdateAppLocaleDto.md)
  - [CreateOrUpdateAppPricingDto](docs/CreateOrUpdateAppPricingDto.md)
  - [CreateOrUpdateAppPricingItemDto](docs/CreateOrUpdateAppPricingItemDto.md)
  - [CreateOrUpdateAppReleaseDto](docs/CreateOrUpdateAppReleaseDto.md)
  - [CreateOrUpdateAppSdkDto](docs/CreateOrUpdateAppSdkDto.md)
  - [CreateOrUpdateAppUserScoreDto](docs/CreateOrUpdateAppUserScoreDto.md)
  - [CreateOrUpdateMessageTemplateDto](docs/CreateOrUpdateMessageTemplateDto.md)
+ - [CreatePayPalOrderDto](docs/CreatePayPalOrderDto.md)
+ - [CreatePayPalOrderResultDto](docs/CreatePayPalOrderResultDto.md)
  - [CreatePushNotificationDto](docs/CreatePushNotificationDto.md)
  - [CreateUpdateAppTesterDto](docs/CreateUpdateAppTesterDto.md)
  - [CreateUpdateMessageSourceDto](docs/CreateUpdateMessageSourceDto.md)
@@ -458,7 +480,7 @@ Authentication schemes defined for the API:
 
 - **Type**: OAuth
 - **Flow**: accessCode
-- **Authorization URL**: https://dev.auth.puupee.com/connect/authorize
+- **Authorization URL**: https://localhost:44301/connect/authorize
 - **Scopes**: 
  - **Puupees**: Puupees API
 

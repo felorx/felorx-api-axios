@@ -22,7 +22,7 @@ import {
     DeviceApi,
     Configuration,
     BindDeviceDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeviceApi(configuration);
@@ -78,7 +78,7 @@ void (empty response body)
 import {
     DeviceApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeviceApi(configuration);
@@ -134,7 +134,7 @@ const { status, data } = await apiInstance.getByToken(
 import {
     DeviceApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeviceApi(configuration);
@@ -190,7 +190,7 @@ const { status, data } = await apiInstance.getDeviceById(
 import {
     DeviceApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeviceApi(configuration);
@@ -253,7 +253,7 @@ import {
     DeviceApi,
     Configuration,
     RefreshDeviceStatusDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeviceApi(configuration);
@@ -309,7 +309,7 @@ void (empty response body)
 import {
     DeviceApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new DeviceApi(configuration);

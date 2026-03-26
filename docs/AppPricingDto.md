@@ -34,7 +34,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { AppPricingDto } from 'puupee-api-axios';
+import { AppPricingDto } from 'puupee-api';
 
 const instance: AppPricingDto = {
     id,

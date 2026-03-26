@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { GetPermissionListResultDto } from 'puupee-api-axios';
+import { GetPermissionListResultDto } from 'puupee-api';
 
 const instance: GetPermissionListResultDto = {
     entityDisplayName,

@@ -17,7 +17,7 @@ All URIs are relative to *http://localhost*
 import {
     AbpTenantApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AbpTenantApi(configuration);
@@ -73,7 +73,7 @@ const { status, data } = await apiInstance.findTenantById(
 import {
     AbpTenantApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AbpTenantApi(configuration);

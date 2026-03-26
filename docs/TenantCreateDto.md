@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { TenantCreateDto } from 'puupee-api-axios';
+import { TenantCreateDto } from 'puupee-api';
 
 const instance: TenantCreateDto = {
     extraProperties,

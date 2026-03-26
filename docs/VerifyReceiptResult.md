@@ -31,7 +31,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { VerifyReceiptResult } from 'puupee-api-axios';
+import { VerifyReceiptResult } from 'puupee-api';
 
 const instance: VerifyReceiptResult = {
     id,

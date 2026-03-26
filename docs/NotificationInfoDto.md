@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { NotificationInfoDto } from 'puupee-api-axios';
+import { NotificationInfoDto } from 'puupee-api';
 
 const instance: NotificationInfoDto = {
     id,

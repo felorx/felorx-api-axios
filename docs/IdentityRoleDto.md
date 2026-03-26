@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IdentityRoleDto } from 'puupee-api-axios';
+import { IdentityRoleDto } from 'puupee-api';
 
 const instance: IdentityRoleDto = {
     extraProperties,

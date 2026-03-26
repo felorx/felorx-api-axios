@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ExtensionEnumFieldDto } from 'puupee-api-axios';
+import { ExtensionEnumFieldDto } from 'puupee-api';
 
 const instance: ExtensionEnumFieldDto = {
     name,

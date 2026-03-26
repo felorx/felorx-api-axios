@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { UpdateEmailSettingsDto } from 'puupee-api-axios';
+import { UpdateEmailSettingsDto } from 'puupee-api';
 
 const instance: UpdateEmailSettingsDto = {
     smtpHost,

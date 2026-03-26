@@ -25,7 +25,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { LatestReceiptInfo } from 'puupee-api-axios';
+import { LatestReceiptInfo } from 'puupee-api';
 
 const instance: LatestReceiptInfo = {
     quantity,

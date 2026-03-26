@@ -38,7 +38,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { BuildRecordDto } from 'puupee-api-axios';
+import { BuildRecordDto } from 'puupee-api';
 
 const instance: BuildRecordDto = {
     id,

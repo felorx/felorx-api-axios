@@ -19,7 +19,7 @@ All URIs are relative to *http://localhost*
 import {
     UserLookupApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserLookupApi(configuration);
@@ -75,7 +75,7 @@ const { status, data } = await apiInstance.findById(
 import {
     UserLookupApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserLookupApi(configuration);
@@ -131,7 +131,7 @@ const { status, data } = await apiInstance.findByUserName(
 import {
     UserLookupApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserLookupApi(configuration);
@@ -187,7 +187,7 @@ const { status, data } = await apiInstance.getCount(
 import {
     UserLookupApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new UserLookupApi(configuration);

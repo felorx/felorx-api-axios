@@ -36,7 +36,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { DeployRecordDto } from 'puupee-api-axios';
+import { DeployRecordDto } from 'puupee-api';
 
 const instance: DeployRecordDto = {
     id,

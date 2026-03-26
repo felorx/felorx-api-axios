@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IdentityUserLogin } from 'puupee-api-axios';
+import { IdentityUserLogin } from 'puupee-api';
 
 const instance: IdentityUserLogin = {
     tenantId,

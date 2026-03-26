@@ -18,7 +18,7 @@ import {
     AvatarApi,
     Configuration,
     CreateAvatarDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AvatarApi(configuration);
@@ -74,7 +74,7 @@ const { status, data } = await apiInstance.createAvatar(
 import {
     AvatarApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AvatarApi(configuration);

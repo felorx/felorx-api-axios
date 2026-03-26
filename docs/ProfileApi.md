@@ -19,7 +19,7 @@ import {
     ProfileApi,
     Configuration,
     ChangePasswordInput
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new ProfileApi(configuration);
@@ -75,7 +75,7 @@ void (empty response body)
 import {
     ProfileApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new ProfileApi(configuration);
@@ -125,7 +125,7 @@ import {
     ProfileApi,
     Configuration,
     UpdateProfileDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new ProfileApi(configuration);

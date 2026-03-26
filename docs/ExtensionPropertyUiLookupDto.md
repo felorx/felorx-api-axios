@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { ExtensionPropertyUiLookupDto } from 'puupee-api-axios';
+import { ExtensionPropertyUiLookupDto } from 'puupee-api';
 
 const instance: ExtensionPropertyUiLookupDto = {
     url,

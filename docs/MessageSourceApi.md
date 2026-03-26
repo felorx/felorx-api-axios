@@ -21,7 +21,7 @@ import {
     MessageSourceApi,
     Configuration,
     CreateUpdateMessageSourceDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageSourceApi(configuration);
@@ -77,7 +77,7 @@ const { status, data } = await apiInstance.createMessageSource(
 import {
     MessageSourceApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageSourceApi(configuration);
@@ -133,7 +133,7 @@ void (empty response body)
 import {
     MessageSourceApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageSourceApi(configuration);
@@ -189,7 +189,7 @@ const { status, data } = await apiInstance.getMessageSourceById(
 import {
     MessageSourceApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageSourceApi(configuration);
@@ -246,7 +246,7 @@ import {
     MessageSourceApi,
     Configuration,
     CreateUpdateMessageSourceDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageSourceApi(configuration);

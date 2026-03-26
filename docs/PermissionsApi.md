@@ -17,7 +17,7 @@ All URIs are relative to *http://localhost*
 import {
     PermissionsApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new PermissionsApi(configuration);
@@ -77,7 +77,7 @@ import {
     PermissionsApi,
     Configuration,
     UpdatePermissionsDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new PermissionsApi(configuration);

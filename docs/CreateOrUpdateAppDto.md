@@ -6,11 +6,8 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | **string** |  | [optional] [default to undefined]
-**displayName** | **string** |  | [optional] [default to undefined]
 **framework** | [**AppFramework**](AppFramework.md) |  | [optional] [default to undefined]
 **appType** | [**AppType**](AppType.md) |  | [optional] [default to undefined]
-**description** | **string** |  | [optional] [default to undefined]
-**icon** | **string** |  | [optional] [default to undefined]
 **homePage** | **string** | 产品首页 | [optional] [default to undefined]
 **sortIndex** | **number** | 显示排序 | [optional] [default to undefined]
 **gitRepository** | **string** |  | [optional] [default to undefined]
@@ -30,15 +27,12 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { CreateOrUpdateAppDto } from 'puupee-api-axios';
+import { CreateOrUpdateAppDto } from 'puupee-api';
 
 const instance: CreateOrUpdateAppDto = {
     name,
-    displayName,
     framework,
     appType,
-    description,
-    icon,
     homePage,
     sortIndex,
     gitRepository,

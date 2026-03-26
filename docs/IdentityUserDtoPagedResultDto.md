@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IdentityUserDtoPagedResultDto } from 'puupee-api-axios';
+import { IdentityUserDtoPagedResultDto } from 'puupee-api';
 
 const instance: IdentityUserDtoPagedResultDto = {
     items,

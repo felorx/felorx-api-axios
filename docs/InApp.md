@@ -25,7 +25,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { InApp } from 'puupee-api-axios';
+import { InApp } from 'puupee-api';
 
 const instance: InApp = {
     quantity,

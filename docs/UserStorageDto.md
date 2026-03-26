@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { UserStorageDto } from 'puupee-api-axios';
+import { UserStorageDto } from 'puupee-api';
 
 const instance: UserStorageDto = {
     appId,

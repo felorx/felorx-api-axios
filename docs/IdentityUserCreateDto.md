@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IdentityUserCreateDto } from 'puupee-api-axios';
+import { IdentityUserCreateDto } from 'puupee-api';
 
 const instance: IdentityUserCreateDto = {
     extraProperties,

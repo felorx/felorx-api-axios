@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { RemoteServiceErrorResponse } from 'puupee-api-axios';
+import { RemoteServiceErrorResponse } from 'puupee-api';
 
 const instance: RemoteServiceErrorResponse = {
     error,

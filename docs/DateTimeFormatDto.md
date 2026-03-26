@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { DateTimeFormatDto } from 'puupee-api-axios';
+import { DateTimeFormatDto } from 'puupee-api';
 
 const instance: DateTimeFormatDto = {
     calendarAlgorithmType,

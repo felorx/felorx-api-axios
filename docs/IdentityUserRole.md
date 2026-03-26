@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IdentityUserRole } from 'puupee-api-axios';
+import { IdentityUserRole } from 'puupee-api';
 
 const instance: IdentityUserRole = {
     tenantId,

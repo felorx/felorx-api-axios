@@ -8,7 +8,7 @@ All URIs are relative to *http://localhost*
 |[**deleteAppPricingById**](#deleteapppricingbyid) | **DELETE** /api/app/app-pricing/{id} | |
 |[**getAppPricingById**](#getapppricingbyid) | **GET** /api/app/app-pricing/{id} | |
 |[**getAppPricingList**](#getapppricinglist) | **GET** /api/app/app-pricing | |
-|[**getListByAppId**](#getlistbyappid) | **GET** /api/app/app-pricing/by-app-id/{appId} | |
+|[**getListByAppId**](#getlistbyappid) | **GET** /api/app/app-pricing/by-app-id/{appId} | 获取应用定价方案列表，允许匿名访问供未登录用户查看订阅计划|
 |[**getPricingItemsByAppId**](#getpricingitemsbyappid) | **GET** /api/app/app-pricing/pricing-items-by-app-id/{appId} | |
 |[**updateAppPricing**](#updateapppricing) | **PUT** /api/app/app-pricing/{id} | |
 
@@ -23,7 +23,7 @@ import {
     AppPricingApi,
     Configuration,
     CreateOrUpdateAppPricingDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingApi(configuration);
@@ -79,7 +79,7 @@ const { status, data } = await apiInstance.createAppPricing(
 import {
     AppPricingApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingApi(configuration);
@@ -135,7 +135,7 @@ void (empty response body)
 import {
     AppPricingApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingApi(configuration);
@@ -191,7 +191,7 @@ const { status, data } = await apiInstance.getAppPricingById(
 import {
     AppPricingApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingApi(configuration);
@@ -253,7 +253,7 @@ const { status, data } = await apiInstance.getAppPricingList(
 import {
     AppPricingApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingApi(configuration);
@@ -309,7 +309,7 @@ const { status, data } = await apiInstance.getListByAppId(
 import {
     AppPricingApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingApi(configuration);
@@ -366,7 +366,7 @@ import {
     AppPricingApi,
     Configuration,
     CreateOrUpdateAppPricingDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new AppPricingApi(configuration);

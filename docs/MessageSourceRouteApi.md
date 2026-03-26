@@ -21,7 +21,7 @@ import {
     MessageSourceRouteApi,
     Configuration,
     CreateUpdateMessageSourceRouteDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageSourceRouteApi(configuration);
@@ -77,7 +77,7 @@ void (empty response body)
 import {
     MessageSourceRouteApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageSourceRouteApi(configuration);
@@ -133,7 +133,7 @@ void (empty response body)
 import {
     MessageSourceRouteApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageSourceRouteApi(configuration);
@@ -189,7 +189,7 @@ const { status, data } = await apiInstance.getMessageSourceRouteById(
 import {
     MessageSourceRouteApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageSourceRouteApi(configuration);
@@ -246,7 +246,7 @@ import {
     MessageSourceRouteApi,
     Configuration,
     CreateUpdateMessageSourceRouteDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageSourceRouteApi(configuration);

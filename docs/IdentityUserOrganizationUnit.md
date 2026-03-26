@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { IdentityUserOrganizationUnit } from 'puupee-api-axios';
+import { IdentityUserOrganizationUnit } from 'puupee-api';
 
 const instance: IdentityUserOrganizationUnit = {
     creationTime,

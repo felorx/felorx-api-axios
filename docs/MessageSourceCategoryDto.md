@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { MessageSourceCategoryDto } from 'puupee-api-axios';
+import { MessageSourceCategoryDto } from 'puupee-api';
 
 const instance: MessageSourceCategoryDto = {
     id,

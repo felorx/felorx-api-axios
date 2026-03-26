@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { RemoteServiceValidationErrorInfo } from 'puupee-api-axios';
+import { RemoteServiceValidationErrorInfo } from 'puupee-api';
 
 const instance: RemoteServiceValidationErrorInfo = {
     message,

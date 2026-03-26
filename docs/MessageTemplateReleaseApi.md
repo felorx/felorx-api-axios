@@ -19,7 +19,7 @@ import {
     MessageTemplateReleaseApi,
     Configuration,
     CreateMessageTemplateReleaseDto
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageTemplateReleaseApi(configuration);
@@ -75,7 +75,7 @@ const { status, data } = await apiInstance.createMessageTemplateRelease(
 import {
     MessageTemplateReleaseApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageTemplateReleaseApi(configuration);
@@ -131,7 +131,7 @@ const { status, data } = await apiInstance.getMessageTemplateReleaseById(
 import {
     MessageTemplateReleaseApi,
     Configuration
-} from 'puupee-api-axios';
+} from 'puupee-api';
 
 const configuration = new Configuration();
 const apiInstance = new MessageTemplateReleaseApi(configuration);
