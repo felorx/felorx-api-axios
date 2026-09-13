@@ -1,0 +1,164 @@
+# AuthCenterApi
+
+All URIs are relative to *http://localhost*
+
+|Method | HTTP request | Description|
+|------------- | ------------- | -------------|
+|[**getAuthorizedApps**](#getauthorizedapps) | **GET** /api/app/auth-center/authorized-apps | |
+|[**getSummaryGetApiAppAuthCenterSummary**](#getsummarygetapiappauthcentersummary) | **GET** /api/app/auth-center/summary | |
+|[**revokeAuthorizedApp**](#revokeauthorizedapp) | **POST** /api/app/auth-center/revoke-authorized-app/{clientId} | |
+
+# **getAuthorizedApps**
+> Array<AuthorizedAppDto> getAuthorizedApps()
+
+
+### Example
+
+```typescript
+import {
+    AuthCenterApi,
+    Configuration
+} from 'felorx-api';
+
+const configuration = new Configuration();
+const apiInstance = new AuthCenterApi(configuration);
+
+const { status, data } = await apiInstance.getAuthorizedApps();
+```
+
+### Parameters
+This endpoint does not have any parameters.
+
+
+### Return type
+
+**Array<AuthorizedAppDto>**
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: text/plain, application/json, text/json
+
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+|**200** | Success |  -  |
+|**403** | Forbidden |  -  |
+|**401** | Unauthorized |  -  |
+|**400** | Bad Request |  -  |
+|**404** | Not Found |  -  |
+|**501** | Server Error |  -  |
+|**500** | Server Error |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **getSummaryGetApiAppAuthCenterSummary**
+> AuthCenterSummaryDto getSummaryGetApiAppAuthCenterSummary()
+
+
+### Example
+
+```typescript
+import {
+    AuthCenterApi,
+    Configuration
+} from 'felorx-api';
+
+const configuration = new Configuration();
+const apiInstance = new AuthCenterApi(configuration);
+
+const { status, data } = await apiInstance.getSummaryGetApiAppAuthCenterSummary();
+```
+
+### Parameters
+This endpoint does not have any parameters.
+
+
+### Return type
+
+**AuthCenterSummaryDto**
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: text/plain, application/json, text/json
+
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+|**200** | Success |  -  |
+|**403** | Forbidden |  -  |
+|**401** | Unauthorized |  -  |
+|**400** | Bad Request |  -  |
+|**404** | Not Found |  -  |
+|**501** | Server Error |  -  |
+|**500** | Server Error |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **revokeAuthorizedApp**
+> revokeAuthorizedApp()
+
+
+### Example
+
+```typescript
+import {
+    AuthCenterApi,
+    Configuration
+} from 'felorx-api';
+
+const configuration = new Configuration();
+const apiInstance = new AuthCenterApi(configuration);
+
+let clientId: string; // (default to undefined)
+
+const { status, data } = await apiInstance.revokeAuthorizedApp(
+    clientId
+);
+```
+
+### Parameters
+
+|Name | Type | Description  | Notes|
+|------------- | ------------- | ------------- | -------------|
+| **clientId** | [**string**] |  | defaults to undefined|
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: text/plain, application/json, text/json
+
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+|**200** | Success |  -  |
+|**403** | Forbidden |  -  |
+|**401** | Unauthorized |  -  |
+|**400** | Bad Request |  -  |
+|**404** | Not Found |  -  |
+|**501** | Server Error |  -  |
+|**500** | Server Error |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
