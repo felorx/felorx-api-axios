@@ -6,11 +6,14 @@ All URIs are relative to *http://localhost*
 |------------- | ------------- | -------------|
 |[**changeAccountPassword**](#changeaccountpassword) | **POST** /api/app/account/change-password | |
 |[**checkSyncAuth**](#checksyncauth) | **POST** /api/app/account/check-sync-auth | 检查同步认证|
+|[**confirmEmail**](#confirmemail) | **POST** /api/app/account/confirm-email | |
 |[**deletionStatus**](#deletionstatus) | **POST** /api/app/account/deletion-status | |
 |[**destroyAccount**](#destroyaccount) | **POST** /api/app/account/destroy-account | |
 |[**getAccountGetApiAppAccount**](#getaccountgetapiappaccount) | **GET** /api/app/account | |
 |[**register**](#register) | **POST** /api/account/register | |
 |[**resetPassword**](#resetpassword) | **POST** /api/account/reset-password | |
+|[**sendDeletionCode**](#senddeletioncode) | **POST** /api/app/account/send-deletion-code | |
+|[**sendEmailConfirmationCode**](#sendemailconfirmationcode) | **POST** /api/app/account/send-email-confirmation-code | |
 |[**sendPasswordResetCode**](#sendpasswordresetcode) | **POST** /api/account/send-password-reset-code | |
 |[**verifyPasswordResetToken**](#verifypasswordresettoken) | **POST** /api/account/verify-password-reset-token | |
 
@@ -104,6 +107,63 @@ No authorization required
 ### HTTP request headers
 
  - **Content-Type**: Not defined
+ - **Accept**: text/plain, application/json, text/json
+
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+|**200** | Success |  -  |
+|**403** | Forbidden |  -  |
+|**401** | Unauthorized |  -  |
+|**400** | Bad Request |  -  |
+|**404** | Not Found |  -  |
+|**501** | Server Error |  -  |
+|**500** | Server Error |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **confirmEmail**
+> confirmEmail()
+
+
+### Example
+
+```typescript
+import {
+    AccountApi,
+    Configuration,
+    ConfirmAccountEmailDto
+} from 'felorx-api';
+
+const configuration = new Configuration();
+const apiInstance = new AccountApi(configuration);
+
+let confirmAccountEmailDto: ConfirmAccountEmailDto; // (optional)
+
+const { status, data } = await apiInstance.confirmEmail(
+    confirmAccountEmailDto
+);
+```
+
+### Parameters
+
+|Name | Type | Description  | Notes|
+|------------- | ------------- | ------------- | -------------|
+| **confirmAccountEmailDto** | **ConfirmAccountEmailDto**|  | |
+
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: application/json, text/json, application/*+json
  - **Accept**: text/plain, application/json, text/json
 
 
@@ -397,6 +457,104 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
+# **sendDeletionCode**
+> string sendDeletionCode()
+
+
+### Example
+
+```typescript
+import {
+    AccountApi,
+    Configuration
+} from 'felorx-api';
+
+const configuration = new Configuration();
+const apiInstance = new AccountApi(configuration);
+
+const { status, data } = await apiInstance.sendDeletionCode();
+```
+
+### Parameters
+This endpoint does not have any parameters.
+
+
+### Return type
+
+**string**
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: text/plain, application/json, text/json
+
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+|**200** | Success |  -  |
+|**403** | Forbidden |  -  |
+|**401** | Unauthorized |  -  |
+|**400** | Bad Request |  -  |
+|**404** | Not Found |  -  |
+|**501** | Server Error |  -  |
+|**500** | Server Error |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **sendEmailConfirmationCode**
+> string sendEmailConfirmationCode()
+
+
+### Example
+
+```typescript
+import {
+    AccountApi,
+    Configuration
+} from 'felorx-api';
+
+const configuration = new Configuration();
+const apiInstance = new AccountApi(configuration);
+
+const { status, data } = await apiInstance.sendEmailConfirmationCode();
+```
+
+### Parameters
+This endpoint does not have any parameters.
+
+
+### Return type
+
+**string**
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: text/plain, application/json, text/json
+
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+|**200** | Success |  -  |
+|**403** | Forbidden |  -  |
+|**401** | Unauthorized |  -  |
+|**400** | Bad Request |  -  |
+|**404** | Not Found |  -  |
+|**501** | Server Error |  -  |
+|**500** | Server Error |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
 # **sendPasswordResetCode**
 > sendPasswordResetCode()
 
@@ -510,4 +668,3 @@ No authorization required
 |**500** | Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-

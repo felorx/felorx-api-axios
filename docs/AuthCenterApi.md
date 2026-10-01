@@ -5,7 +5,7 @@ All URIs are relative to *http://localhost*
 |Method | HTTP request | Description|
 |------------- | ------------- | -------------|
 |[**getAuthorizedApps**](#getauthorizedapps) | **GET** /api/app/auth-center/authorized-apps | |
-|[**getSummaryGetApiAppAuthCenterSummary**](#getsummarygetapiappauthcentersummary) | **GET** /api/app/auth-center/summary | |
+|[**getSummary**](#getsummary) | **GET** /api/app/auth-center/summary | |
 |[**revokeAuthorizedApp**](#revokeauthorizedapp) | **POST** /api/app/auth-center/revoke-authorized-app/{clientId} | |
 
 # **getAuthorizedApps**
@@ -57,8 +57,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **getSummaryGetApiAppAuthCenterSummary**
-> AuthCenterSummaryDto getSummaryGetApiAppAuthCenterSummary()
+# **getSummary**
+> AuthCenterSummaryDto getSummary()
 
 
 ### Example
@@ -72,7 +72,7 @@ import {
 const configuration = new Configuration();
 const apiInstance = new AuthCenterApi(configuration);
 
-const { status, data } = await apiInstance.getSummaryGetApiAppAuthCenterSummary();
+const { status, data } = await apiInstance.getSummary();
 ```
 
 ### Parameters
@@ -161,4 +161,3 @@ No authorization required
 |**500** | Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-

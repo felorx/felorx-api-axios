@@ -1,21 +1,19 @@
-# FelorxResponseToolChoiceOneOf
+# ConfirmAccountEmailDto
 
 
 ## Properties
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**type** | **string** |  | [default to undefined]
-**name** | **string** |  | [optional] [default to undefined]
+**code** | **string** |  | [default to undefined]
 
 ## Example
 
 ```typescript
-import { FelorxResponseToolChoiceOneOf } from 'felorx-api';
+import { ConfirmAccountEmailDto } from 'felorx-api';
 
-const instance: FelorxResponseToolChoiceOneOf = {
-    type,
-    name,
+const instance: ConfirmAccountEmailDto = {
+    code,
 };
 ```
 
