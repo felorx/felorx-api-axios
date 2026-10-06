@@ -945,7 +945,8 @@ export const ArtifactType = {
     Zip: 'Zip',
     Bin: 'Bin',
     Other: 'Other',
-    Fdu: 'Fdu'
+    Fdu: 'Fdu',
+    Fapp: 'Fapp'
 } as const;
 
 export type ArtifactType = typeof ArtifactType[keyof typeof ArtifactType];
